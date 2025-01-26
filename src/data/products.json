@@ -1,0 +1,46 @@
+[
+  {
+    "id": "0001",
+    "title": "Test Product",
+    "description": "Producto de prueba",
+    "code": "0000000000",
+    "price": 1500,
+    "status": true,
+    "stock": "5",
+    "category": "Backend",
+    "thumbnails": ""
+  },
+  {
+    "id": "0001",
+    "title": "Test Product",
+    "description": "Producto de prueba",
+    "code": "0000000000",
+    "price": 1500,
+    "status": true,
+    "stock": "5",
+    "category": "Backend",
+    "thumbnails": ""
+  },
+  {
+    "id": "0001",
+    "title": "Test Product",
+    "description": "Producto de prueba",
+    "code": "0000000000",
+    "price": 1500,
+    "status": true,
+    "stock": "5",
+    "category": "Backend",
+    "thumbnails": ""
+  },
+  {
+    "id": "0001",
+    "title": "Test Product",
+    "description": "Producto de prueba",
+    "code": "0000000000",
+    "price": 1500,
+    "status": true,
+    "stock": "5",
+    "category": "Backend",
+    "thumbnails": ""
+  }
+]

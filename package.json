@@ -1,0 +1,18 @@
+{
+  "name": "ecommercebackend",
+  "version": "1.0.0",
+  "description": "Pre entrega curso Backend I - Coderhouse - backend para un ecommerce manejo de productos y carrito de compras",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch ./src/app.js"
+  },
+  "author": "Ing Julian Holzschuh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "handlebars": "^4.7.8",
+    "morgan": "^1.10.0"
+  }
+}
