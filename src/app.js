@@ -1,5 +1,6 @@
 import express from 'express'; //importo la libreria de express
 import productsRouter from './routes/products.routes.js'
+import chartsRouter from './routes/charts.routes.js'
 import morgan from 'morgan';
 
 
@@ -28,6 +29,7 @@ app.use(morgan("tiny"));
 //Rutas principales
 //app.use("/api/users", userRouter); //Esto todavia no lo uso
 app.use("/api/products", productsRouter);
+app.use("/api/charts", chartsRouter);
 
 
 //paginas publicas
