@@ -1,7 +1,7 @@
 [
   {
-    "id": "0001",
-    "title": "Test Product",
+    "id": "1",
+    "title": "Producto1",
     "description": "Producto de prueba",
     "code": "0000000000",
     "price": 1500,
@@ -11,8 +11,8 @@
     "thumbnails": ""
   },
   {
-    "id": "0001",
-    "title": "Test Product",
+    "id": "2",
+    "title": "Producto2",
     "description": "Producto de prueba",
     "code": "0000000000",
     "price": 1500,
@@ -22,8 +22,8 @@
     "thumbnails": ""
   },
   {
-    "id": "0001",
-    "title": "Test Product",
+    "id": "3",
+    "title": "Producto3",
     "description": "Producto de prueba",
     "code": "0000000000",
     "price": 1500,
@@ -33,8 +33,8 @@
     "thumbnails": ""
   },
   {
-    "id": "0001",
-    "title": "Test Product",
+    "id": "4",
+    "title": "Producto4",
     "description": "Producto de prueba",
     "code": "0000000000",
     "price": 1500,
