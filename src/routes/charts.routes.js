@@ -23,8 +23,29 @@ router.get("/", async (req, res) => {
 
 //Crear Carrito Nuevo
 router.post("/", async (req,res) => {
-  res.json("no hago nada, por que no quiero");
-})
+
+  try{
+    //Cargar carritos
+     let charts = await loadCharts();
+     if(charts === undefined){charts = []};
+     const chartsQuantity = charts.length;
+
+    //formato carrito nuevo
+    const newChart = {
+      "id": `${chartsQuantity + 1}`,
+      "products": []
+    }
+
+    //Agrego carrito a la lista y guardo
+    charts.push(newChart);
+    saveList(charts);
+    res.json({message:"Se creo un nuevo carrito exitosamente"});
+  }
+  catch(error) {
+    console.error("Error al cargar los carritos:", error);
+    res.status(500).json({ error: "Error interno del servidor" });
+  }
+});
 
 //obtener carrito por id
 router.get("/:cid", async (req, res) => {
@@ -97,8 +118,8 @@ async function loadCharts() {
     console.log(data);
 
     // Parsear el contenido del archivo
-    const products = JSON.parse(data);
-    return products;
+    const charts = JSON.parse(data);
+    return charts;
   } catch (error) {
     // Si el archivo no existe, aviso
     if (error.code === "ENOENT") {
